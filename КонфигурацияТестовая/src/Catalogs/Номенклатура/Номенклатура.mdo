@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c80ea0-24c7-406f-9ee8-454cbf9aaccf">
+  <producedTypes>
+    <objectType typeId="b93f639c-4038-49f5-9a11-9b3f3050e67f" valueTypeId="3e596de7-b5bb-4b0e-8652-4b8e4efd52f0"/>
+    <refType typeId="dca1dca8-fb1a-446c-a241-7f165f95be36" valueTypeId="a16b7a73-9869-49c2-8773-9e0ecea01b89"/>
+    <selectionType typeId="6e6613c6-b4d2-4c1d-b79e-2633cc42c7f9" valueTypeId="8b21befd-7af0-48d7-9651-a41955b7c729"/>
+    <listType typeId="af7f0e99-d5b0-4871-98c7-e04025f1c8a0" valueTypeId="68d832fa-9e23-41c2-afe7-a4166ab1723b"/>
+    <managerType typeId="79a32de2-d749-4124-bd99-8a806fdb93c2" valueTypeId="2354bbe7-f296-4884-9914-e3d7ba3bfb13"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование номенклатуры</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f8028551-f687-4e02-98d4-9c13703d0704">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

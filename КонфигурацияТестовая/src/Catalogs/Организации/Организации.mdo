@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04996272-0951-468b-afc7-850564c1316d">
+  <producedTypes>
+    <objectType typeId="053920d9-f113-4973-9361-5ec45b58be56" valueTypeId="e545eb83-61e6-45b0-a120-e4b99a6d6e8c"/>
+    <refType typeId="a9a70fd2-8ff7-4fa5-955a-bf5d5ef14d59" valueTypeId="f826f408-2887-4a80-a344-830180f24359"/>
+    <selectionType typeId="d693a0d2-2f55-45c9-a662-b09671fea050" valueTypeId="a685daad-5a28-406e-b34f-45be802f0f29"/>
+    <listType typeId="a5fb0c79-6fbc-4c2e-ba21-c28b27b22a5c" valueTypeId="8a3ad107-3fee-4654-8b74-22867e9c31b7"/>
+    <managerType typeId="6c1d8cf3-173a-4818-a46e-bc330d48866f" valueTypeId="5facd0aa-2246-475c-a055-346a3aa2d339"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование организации</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

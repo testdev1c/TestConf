@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efbb3527-0806-401e-9f97-43954333d97d">
+  <name>ОсновнойРаздел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной раздел</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>ОсновнойРаздел</subsystems>
+</mdclass:Subsystem>
