@@ -35,4 +35,5 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <documents>Document.Документ</documents>
 </mdclass:Configuration>
